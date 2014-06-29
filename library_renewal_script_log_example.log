@@ -1,0 +1,28 @@
+This is an excerpt from my logs; personal info was removed.
+
+2014-06-27 22:32:54,950 INFO: ##### Going to log in as (User) #####
+2014-06-27 22:32:56,644 INFO: Logging in as (Library card number)
+2014-06-27 22:32:59,625 INFO: Logged in as (User)
+2014-06-27 22:32:59,625 INFO: Getting account tabs (e.g. checkouts, holds)
+2014-06-27 22:33:00,489 INFO: --- Parsing checkoutsLine(s) to get title, author, isbn, and renewals
+2014-06-27 22:33:00,510 INFO: ----+ No checkbox found for To have & to hold : magical wedding bouquets
+2014-06-27 22:33:00,510 INFO: ----+ Got To have & to hold : magical wedding bouquets, due: 7/1/14, renewable: False
+2014-06-27 22:33:00,536 INFO: ----+ No checkbox found for Simply stylish faux flowers
+2014-06-27 22:33:00,536 INFO: ----+ Got Simply stylish faux flowers, due: 7/1/14, renewable: False
+2014-06-27 22:33:00,585 INFO: ----+ Got Tigers forever : saving the world's most endangered big cat, due: 7/3/14, renewable: True
+2014-06-27 22:33:00,640 INFO: ----+ Got Out of our time : early native life, railroad & mining days, fish tales, earthquake, fire, due: 7/12/14, renewable: True
+2014-06-27 22:33:00,686 INFO: ----+ Got A bride's book of lists : everything you need to plan the perfect wedding, due: 7/14/14, renewable: True
+2014-06-27 22:33:00,707 INFO: ----+ Got Martha Stewart's wedding cakes, due: 7/14/14, renewable: True
+2014-06-27 22:33:00,709 INFO: --- Finished preparing items_dict with 6 items, returning.
+2014-06-27 22:33:00,710 INFO: (User) has 6 items checked out; calling renew() to renew as needed
+2014-06-27 22:33:00,716 INFO: Item Out of our time : early native life, railroad & mining days, fish tales, earthquake, fire due on 2014-07-12 00:00:00, timedelta: 2014-07-12 00:00:00 - 2014-06-27 22:33:00.711000 = 14 day(s)
+2014-06-27 22:33:00,716 INFO: Item Out of our time : early native life, railroad & mining days, fish tales, earthquake, fire is due in 14 days; not going to renew
+2014-06-27 22:33:00,716 INFO: Item Martha Stewart's wedding cakes due on 2014-07-14 00:00:00, timedelta: 2014-07-14 00:00:00 - 2014-06-27 22:33:00.711000 = 16 day(s)
+2014-06-27 22:33:00,717 INFO: Item Martha Stewart's wedding cakes is due in 16 days; not going to renew
+2014-06-27 22:33:00,717 INFO: Item A bride's book of lists : everything you need to plan the perfect wedding due on 2014-07-14 00:00:00, timedelta: 2014-07-14 00:00:00 - 2014-06-27 22:33:00.711000 = 16 day(s)
+2014-06-27 22:33:00,717 INFO: Item A bride's book of lists : everything you need to plan the perfect wedding is due in 16 days; not going to renew
+2014-06-27 22:33:00,717 INFO: Item Tigers forever : saving the world's most endangered big cat due on 2014-07-03 00:00:00, timedelta: 2014-07-03 00:00:00 - 2014-06-27 22:33:00.711000 = 5 day(s)
+2014-06-27 22:33:00,717 INFO: Item Tigers forever : saving the world's most endangered big cat is due in 5 days; not going to renew
+2014-06-27 22:33:00,717 INFO: No items to renew.
+2014-06-27 22:33:00,717 INFO: No items were renewed
+2014-06-27 22:33:00,717 INFO: Logging out from (User)'s account
