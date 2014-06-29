@@ -22,7 +22,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from lxml import etree
 from lxml.builder import E
-from bs4 import BeautifulSoup
 from HTMLParser import HTMLParser
 
 from datetime import datetime
