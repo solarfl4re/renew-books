@@ -1,5 +1,5 @@
 ### renew-books
-A script that renews library books and sends emails detailing what it did.
+A script that renews library books from Alaska libraries (Anchorage Public libraries, UAA, etc) and sends emails detailing what it did.
 
 **Dependencies:**
 * Selenium Webdriver
